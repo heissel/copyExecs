@@ -695,7 +695,7 @@ sub getSetup {
     if ($suCond =~ /SMA(\d+)([fxc])(\d+.?\d*)/) { # SMA slope up for long, down for short
 
     }
-    if ($suCond =~ /EMA(\d+)([fxc])(\d+.?\d*)/) { # EMA slope up for long, down for short
+    if ($suCond =~ /EMA(\d+)([fxc])(\d+.?\d*)/) { # EMA slope up for long, down for short...
         $per = $1; 
         @ma = emaArray(\%closep, $per);
     }
